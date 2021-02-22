@@ -4,8 +4,6 @@ import {postData} from '../services/services';
 
 function formsFunc(formSelector, modalOpenTimer) {
 
-  // Forms
-
   const forms = document.querySelectorAll(formSelector);
 
   forms.forEach(form => {
